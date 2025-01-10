@@ -1,0 +1,60 @@
+
+body{
+    background-color: rgb(243, 242, 242);
+}
+.nav-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1080px;
+    padding-left: 120px;
+}
+.btn-sign{
+    border-color: aqua;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+/* Banner style */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+    border-radius: 10px;
+    padding: 50px;
+    width: 1080px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.banner-title{
+color: rgba(14, 14, 14, 0.5);
+font-family: Fira Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+.banner-description{
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 56px;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: left;
+}
+.btn-primary{
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+border-radius: 8px;
+background: rgb(0, 106, 80);
+padding: 10px 20px;
+border: none;
+}
