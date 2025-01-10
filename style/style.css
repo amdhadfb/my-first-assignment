@@ -6,15 +6,20 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1080px;
-    padding-left: 120px;
+    max-width: 1160px;
+    padding-left: 100px;
+    margin-bottom: 20px;
 }
 .btn-sign{
-    border-color: aqua;
-    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 6px;
     padding: 5px 10px;
+
 }
+
 /* Banner style */
+
 .banner{
     display: flex;
     align-items: center;
