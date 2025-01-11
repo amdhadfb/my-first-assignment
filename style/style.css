@@ -14,11 +14,23 @@ body{
     padding-left: 100px;
     margin-bottom: 20px;
 }
+.nav-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
 .btn-sign{
     box-sizing: border-box;
     border: 1px solid rgb(0, 106, 80);
     border-radius: 6px;
-    padding: 5px 10px;
+    padding: 15px 30px 15px 30px;
+    font-size: 18px;
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
 
 }
 
@@ -201,6 +213,7 @@ margin-left: 60px;
 margin-right: 50px;
 background-image: url('../assets/quote-bg.png');
 background-repeat: no-repeat;
+
 }
 
 /* news box styles */
@@ -332,14 +345,104 @@ background-repeat: no-repeat;
     justify-content: space-between;
     width: 700px;
     margin-left: 250px;
+
 }
+
 .taka{
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 10px;
     background: rgb(255, 255, 255);
     padding: 10px 30px;
-    
 
+}
+
+.input-form{  
+width: 700px;
+height: 30px;
+padding: 5px 10px;
+text-align: center;
+margin-left: 280px;
+}
+.btn-new{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48;
+    padding: 17px 34px 17px 34px;
+}
+
+/* newsletter styles */
+
+.newsletter-container{
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    width: 1080px;
+    height: 200px;
+    padding: 20px;
+    margin-left: 120px;
     
 }
+.newsletter-head{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.newsletter-description{
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+}
+
+
+.subscription{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.input-email{
+    position: static;
+    width: 600px;
+    height: 35px;
+    display: flex;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+}
+.btn-primary-new{
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    color:white;
+    padding: 13px;
+    border: none;
+}
+.newsletter-bottom{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;}
+    
+    /* footer styles */
+    footer{
+    background-color: white;
+    text-align: center;
+    width: 1100;
+    padding: 10px;
+    margin-top: 20px;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    margin: 0 auto;}
