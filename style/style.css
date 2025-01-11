@@ -93,3 +93,95 @@ border: none;
     margin-top: 60px;
     
 }
+
+/* vision of future styles */
+.vision-container-title{
+    margin-left: 60px;
+}
+.vision-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.vision-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.future-items{
+    display: flex;
+    justify-content: space-around;
+    font-family: Fira Sans;
+    margin-left: 50px;
+    
+}
+.future-item{
+    width: 410px;
+    height: 325px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.item-1{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+}
+.item-2{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+}
+.item-3{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+}
+
+.future-item-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.future-item-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.btn-01{
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    background: rgb(84, 144, 245);
+    color: white;
+}
+.btn-02{
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    background: rgb(9, 161, 92);
+    color: white;
+}
+.btn-03{
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    background: rgb(255, 194, 57);
+    color: white;
+}
