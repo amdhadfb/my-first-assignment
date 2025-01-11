@@ -2,9 +2,13 @@
 body{
     background-color: rgb(243, 242, 242);
 }
+
+        /* Header style */
+
 .nav-head{
     display: flex;
     justify-content: space-between;
+    font-family: Fira Sans;
     align-items: center;
     max-width: 1160px;
     padding-left: 100px;
@@ -44,9 +48,9 @@ text-align: left;
 .banner-description{
 color: rgb(14, 14, 14);
 font-family: Fira Sans;
-font-size: 56px;
+font-size: 50px;
 font-weight: 700;
-line-height: 50px;
+line-height: 60px;
 letter-spacing: 0%;
 text-align: left;
 }
@@ -62,4 +66,30 @@ border-radius: 8px;
 background: rgb(0, 106, 80);
 padding: 10px 20px;
 border: none;
+}
+
+/* pillars style */
+.pillars-title{
+    text-align: left;
+    margin-left: 80px;
+    font-family: Fira Sans;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 0;
+}
+.pillars-items{
+    display: flex;
+    justify-content: space-around;
+    font-family: Fira Sans;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 70px;
+}
+.pillars-item{
+    width: 250px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 60px;
+    
 }
